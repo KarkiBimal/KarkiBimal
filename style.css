@@ -2,36 +2,13 @@ body,html{
     height: 100%;
     margin: 0;
 }
-#full_img{
-    background-image: url("img/TTU_Campus.jpg");
-    margin-top:-5%;
-    height:70vh;
-    opacity: 0.9;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-
-}
-#profile_pic{
-    position: relative;
-    margin-top:-37%;
-    margin-left:5%;
-   
-
-}
-img{
-    border-radius: 5%;
-    width:17%;
-    height:2%;
-}
 nav{
     position: fixed;
     z-index: 1;
     margin-top:10%;
     margin-right:10%;
     margin-left:90%;
-
+    
 }
 ul {
     list-style-type: none;
@@ -46,6 +23,8 @@ ul {
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
+    border-top:1px black solid;
+
 }
 
 
@@ -53,101 +32,76 @@ ul {
     background-color: #d30c0c;
   color: rgb(68, 6, 6);  
  } 
- #intro_0{
-    position: absolute; 
-    font:  sans-serif;
-    color: white;
-    text-decoration: wavy;
-    text-shadow: black;
-    font-style: oblique;
-    font-size: 200%;
-    margin-left: 35%;
-    margin-top:16%;
-    -webkit-text-stroke: 0.75px black;
-     
-      
-     
-    
- }
- #intro{
-     position: absolute;
-     margin-top: 18%;
-     margin-left: 35%;
-     text-shadow: black;
-     font:  sans-serif;
-     color: white;
-    text-decoration: wavy;
-    text-shadow: black;
-    font-style: oblique;
-     font-size: 300%;
-     -webkit-text-stroke: 0.p75x black;
-     
- }
- #intro p{
-    
- }
- #intro_2{
-     position: absolute;
-     color:white;
-     font-family: inherit;                 
-     margin-top: 23%;
-     margin-left: 37%;
-     width:40%;
-     height:10%;
-     font-style: oblique;
-     font-size: 200%;
-     -webkit-text-stroke: 0.75px black;
-
-
- }
  
+.full_img{
+    background-image: url("img/TTU_Campus.jpg");
+    
+    height:70vh;
+    opacity: 0.9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 
- #profile p{
-     position: relative;
-     width:50%;
-     margin-top:5%;
-     margin-left: 25%;
-     margin-bottom: 20%;
-     padding-left: 1%;
-     padding-top: 5%;
-     padding-bottom: 10%;
-     padding-right: 10%;
-     font-size: 20px;
+}
+.full_img .intro1{
+    width:40%;
+    margin-left:35%;
+    padding-top:10%;
+}
+.full_img p{
+    font-size:300%;
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+}
+#Profile{
+    width:83%;
+    margin-left:5%;
+    margin-top:5%;
+    background-color: #f1f1f1;
+   
+}
+.proifile_pic{
+    
+    width:10%
+}
 
- } 
- #profile_pic button{
-     position: relative;
-     margin-left: 5%;
-     margin-bottom: 2%;                 
-     padding-left: 1%;                
-     font-size: 15px;                
-     background-color: #d30c0c;
-     color: white;
-     padding: 14px 20px;
-     
-     border: none;
-    border-radius: 4px;
-    cursor: pointer;
 
- }
- #profile_pic button:hover{
-    background-color: #050a06;
- }
- .git_button_main{
-    position: relative;
-    margin-left: 2%;
-    margin-bottom: -1%;                                 
+.p_pic img{
+    width:15%;
+    height:200px;
+    padding: 20px;
+    border-radius:15px;
+
+}
+.r_b button{
+    margin-left:1.8%;
+}
+
+.git_button_main{
+    
+    margin-left: 12%;
+    margin-top:-5%;                                
     border: none;
     border-radius: 4px;
-    width: 7%;
-    height:45px;
+    width: 4%;
+    height:40px;
     opacity:0.7;
    
 }
 .git_button_main:hover{
     opacity:1;
 }
- 
+
+    
+ .intro_2{
+     float:left;
+     width:40%;
+     margin-top:-20%;
+     margin-left:30%;
+     background-color:#f1f1f1;
+ }
+
  #Skills{
      position:relative;
      width:90%;
